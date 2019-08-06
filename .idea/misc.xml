@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dequan-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/dequan-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dequan-user/pom.xml" />
+        <option value="$PROJECT_DIR$/dequan-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/dequan-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/dequan-prod/pom.xml" />
+        <option value="$PROJECT_DIR$/dequan-gateway/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,7 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dequan-common" />
         <module name="dequan-eureka" />
+        <module name="dequan-gateway" />
+        <module name="dequan-pay" />
+        <module name="dequan-prod" />
         <module name="dequan-provider" />
+        <module name="dequan-shop" />
+        <module name="dequan-user" />
       </profile>
     </annotationProcessing>
   </component>

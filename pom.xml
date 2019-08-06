@@ -21,6 +21,11 @@
         <module>dequan-eureka</module>
         <module>dequan-common</module>
         <module>dequan-provider</module>
+        <module>dequan-user</module>
+        <module>dequan-pay</module>
+        <module>dequan-shop</module>
+        <module>dequan-prod</module>
+        <module>dequan-gateway</module>
     </modules>
 
     <!--版本管理-->

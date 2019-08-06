@@ -4,7 +4,12 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dequan-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dequan-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dequan-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dequan-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dequan-prod" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dequan-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dequan-shop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dequan-user" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
