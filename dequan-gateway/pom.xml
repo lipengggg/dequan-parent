@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--依赖父工程-->
+    <parent>
+        <artifactId>dequan-parent</artifactId>
+        <groupId>com.dequan</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.dequan</groupId>
+    <artifactId>dequan-gateway</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>dequan-gateway</name>
+    <description>dequan-gateway</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!--监控依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!--springclooud注解EnableCircuitBreaker要引入断路器依赖，而不是spring-cloud-starter-hystrix-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+        <!--引入限流需要使用的redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
+        </dependency>
+
+        <!--引入ZK-->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+        </dependency>
+
+        <!--引入common-->
+        <dependency>
+            <groupId>com.dequan</groupId>
+            <artifactId>dequan-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!--swagger接口文档生成整合-->
+        <!--		<dependency>
+                    <groupId>com.spring4all</groupId>
+                    <artifactId>swagger-spring-boot-starter</artifactId>
+                </dependency>-->
+    </dependencies>
+
+</project>
