@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/dequan-shop/pom.xml" />
         <option value="$PROJECT_DIR$/dequan-prod/pom.xml" />
         <option value="$PROJECT_DIR$/dequan-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/dequan-oauth/pom.xml" />
       </list>
     </option>
   </component>
