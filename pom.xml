@@ -38,7 +38,7 @@
         <hystrix.version>1.4.6.RELEASE</hystrix.version>
         <druid.version>1.1.10</druid.version>
         <redis.version>2.1.4.RELEASE</redis.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <guava.version>18.0</guava.version>
         <commons-lang3.version>3.8</commons-lang3.version>
         <oval.version>1.90</oval.version>
